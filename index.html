@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0%;
+      }
+      .container {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+      }
+      .akk {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        height: 830px;
+        background-color: rgb(247, 245, 243);
+        width: 60px;
+        border-right: 1px solid rgba(196, 196, 196, 0.837);
+      }
+      .chats {
+        display: flex;
+        flex-direction: column;
+        width: 430px;
+        padding-left: 10px;
+        border-right: 1px solid rgba(196, 196, 196, 0.766);
+      }
+      input {
+        padding: 13px;
+        width: 80%;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(229, 229, 229, 0.62);
+      }
+      .but {
+        display: flex;
+        gap: 5px;
+      }
+      .but p {
+        border: 1px solid rgb(187, 185, 185);
+        font-size: 13px;
+        font-family: sans-serif;
+
+        padding: 10px;
+        padding-left: 22px;
+        padding-right: 22px;
+        border-radius: 50px;
+        font-weight: 900;
+        color: rgba(0, 0, 0, 0.683);
+      }
+      .chat {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        font-size: 13px;
+        position: absolute;
+        top: 80px;
+        left: 450px;
+        border: 1px solid rgb(187, 185, 185);
+        background-color: white;
+        font-family: sans-serif;
+        padding: 20px;
+        border-radius: 10px;
+        display: none;
+      }
+      .hide {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <p>New group</p>
+        <p>Starred</p>
+        <p>Select</p>
+        <p>Mark all</p>
+        <p>App lock</p>
+        <p>Log out</p>
+      </div>
+      <div class="akk">
+        <img width="60px" src="Screenshot 2026-02-01 at 21.05.39.png" alt="" />
+        <img width="60px" src="Screenshot 2026-02-01 at 21.06.35.png" alt="" />
+      </div>
+      <div class="chats">
+        <img
+          class="w"
+          width="430px"
+          src="Screenshot 2026-02-01 at 21.00.21.png"
+          alt=""
+        />
+        <input type="text" placeholder="Search or start new chat" />
+        <div class="but">
+          <p>All</p>
+          <p>Unread</p>
+          <p>Favourites</p>
+          <p>Groups</p>
+        </div>
+
+        <div class="chat">
+          <img
+            style="width: 60px; height: 60px"
+            src="Screenshot 2026-02-01 at 20.57.45.png"
+            alt=""
+          />
+          <p style="font-family: sans-serif; font-weight: 600">
+            F1 <br /><span style="font-family: sans-serif; font-weight: 100"
+              >Kausar:ok erten men kezekshy</span
+            >
+          </p>
+        </div>
+        <div class="chat">
+          <img
+            style="width: 60px; height: 60px"
+            src="Screenshot 2026-02-01 at 21.33.27.png"
+            alt=""
+          />
+          <p style="font-family: sans-serif; font-weight: 600">
+            Aru<br /><span style="font-family: sans-serif; font-weight: 100"
+              >ok erten men kezekshy</span
+            >
+          </p>
+        </div>
+        <div class="chat">
+          <img
+            style="width: 60px; height: 60px"
+            src="Screenshot 2026-02-01 at 20.57.45.png"
+            alt=""
+          />
+          <p style="font-family: sans-serif; font-weight: 600">
+            Family<br /><span style="font-family: sans-serif; font-weight: 100"
+              >papa:👍🏻👍🏻</span
+            >
+          </p>
+        </div>
+        <div class="chat">
+          <img
+            style="width: 60px; height: 60px; border-radius: 50%"
+            src="Screenshot 2026-02-01 at 20.58.11.png"
+            alt=""
+          />
+          <p style="font-family: sans-serif; font-weight: 600">
+            F1 girls<br /><span
+              style="font-family: sans-serif; font-weight: 100"
+              >Kausar:ok erten men kezekshy</span
+            >
+          </p>
+        </div>
+        <div class="chat">
+          <img
+            style="width: 60px; height: 60px"
+            src="Screenshot 2026-02-01 at 21.33.14.png"
+            alt=""
+          />
+          <p style="font-family: sans-serif; font-weight: 600">
+            Amina<br /><span style="font-family: sans-serif; font-weight: 100"
+              >Akniyet I love you💗</span
+            >
+          </p>
+        </div>
+        <div class="chat">
+          <img
+            style="width: 60px; height: 60px"
+            src="Screenshot 2026-02-01 at 20.57.45.png"
+            alt=""
+          />
+          <p style="font-family: sans-serif; font-weight: 600">
+            Unread<br /><span style="font-family: sans-serif; font-weight: 100"
+              >Kausar:ok erten men kezekshy</span
+            >
+          </p>
+        </div>
+        <div class="chat">
+          <img
+            style="width: 60px; height: 60px"
+            src="Screenshot 2026-02-01 at 21.33.46.png"
+            alt=""
+          />
+          <p style="font-family: sans-serif; font-weight: 600">
+            Medina<br /><span style="font-family: sans-serif; font-weight: 100"
+              >ok erten men kezekshy</span
+            >
+          </p>
+        </div>
+        <div class="chat">
+          <img
+            style="width: 60px; height: 60px"
+            src="Screenshot 2026-02-01 at 20.57.45.png"
+            alt=""
+          />
+          <p style="font-family: sans-serif; font-weight: 600">
+            F1 <br /><span style="font-family: sans-serif; font-weight: 100"
+              >Kausar:ok erten men kezekshy</span
+            >
+          </p>
+        </div>
+        <div class="chat">
+          <img
+            style="width: 60px; height: 60px"
+            src="Screenshot 2026-02-01 at 20.57.45.png"
+            alt=""
+          />
+          <p style="font-family: sans-serif; font-weight: 600">
+            F1 <br /><span style="font-family: sans-serif; font-weight: 100"
+              >Kausar:ok erten men kezekshy</span
+            >
+          </p>
+        </div>
+      </div>
+      <img width="990px" src="Screenshot 2026-02-01 at 20.58.58.png" alt="" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
